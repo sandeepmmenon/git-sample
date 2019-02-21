@@ -1,0 +1,38 @@
+#container
+{
+    width:100%;
+    height:500px;
+}
+#first
+{
+    width:100%;
+    background-color: magenta;
+    color: #fff;
+    height:200px;
+}
+#second
+{
+    width:100%;
+    height:300px;
+}
+#third
+{
+    background: darkorange;
+    width: 33.33%;
+    height:300px;
+    float:left;
+}
+#four
+{
+    background: paleturquoise;
+    width: 33.33%;
+    float: left;
+    height:300px;
+}
+#five
+{
+    background: brown;
+    width: 33.333%;
+    float:left;
+    height:300px;
+}

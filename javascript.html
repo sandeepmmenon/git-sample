@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+
+        function ones(h)
+        {
+            document.getElementById('hai').innerText+=h;
+        }
+        function equal()
+        {
+            var e=document.getElementById('hai').innerText;
+            var f=eval(e);
+            document.getElementById('hai').innerText=f;
+        }
+
+
+    </script>
+    <meta charset="UTF-8">
+    <title>Caluclator</title>
+</head>
+<body>
+<div id="canvas"><p></p></div>
+<div id="calc">
+    <form name="gra">
+        <table>
+            <tr>
+                <p id="hai"></p></tr>
+    <tr>
+        <td><input type='button' onclick='ones('1')' value="1" ></td>
+        <td>
+            <input type="button" onclick="ones('2')" value="2"></td>
+    <td><input type='button' onclick='ones('3')' value="3"></td></tr>
+    <tr>
+        <td><input type="button" onclick="ones('4')" value="4"></td>
+        <td><input type='button' onclick='ones('5') value="5"></td>
+            <td><input type="button" onclick="ones('6')" value="6"></td></tr>
+            <tr>
+                <td>   <input type='button' onclick='ones('7')' value="7"></td>
+
+                <td><input type="button" onclick="ones('8')" value="8"></td>
+                <td><input type='button' onclick='ones('9')' value="9"></td>
+            </tr>
+            <tr>
+            <td><input type="button" onclick="ones('+')" value="+"></td>
+             <td><input type='button' onclick='ones('-')' value="-"></td>
+                <td><input type="button" onclick='ones('*')' value="*"></td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="ones('/')" value="/"></td>
+                <td colspan="2"><input type="button" onclick="equal()" value="="></td></tr>
+    </form>
+</div>
+</body>
+</html>

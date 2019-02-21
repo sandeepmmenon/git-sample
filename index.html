@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <div id="topbar">
+        <div id="logo">
+            <h2 style="color:white;padding:0px 0px 0px 100px;font-size:40px;">Facebook</h2>
+        </div>
+        <div id="signupform">
+            <form method="post" action="logins.php">
+                <div id="leftside">
+                <label>Username</label><br/>
+                <input type="text" placeholder="Type the username" id="button">
+                </div>
+                <div id="rightside">
+                    <label>password</label><br/>
+                <input type="password" placeholder="Type the password" id="button"><br/>
+                    <a href="">Forgotten Password</a>
+                </div>
+                <div id="submits">
+                <input type="submit" id="submitbutton" value="login">
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div id="contentpart">
+        <div id="leftsides">
+            <h2>Facebook helps you connect and share with the people in your life.</h2>
+            <img src="connect.png" alt="connection logo">
+        </div>
+        <div id="signupforms">
+            <h2>Create An Account</h2>
+            <p>It's Free and always Will Be</p>
+            <form method="post" action="signup.php">
+                <input type="text" placeholder="first name" class="create">
+                <input type="text" placeholder="surname" class="create"><br/>
+                <input type="text" placeholder="Mobile Number or email address" class="creates">
+                <input type="password" placeholder="new Password" class="creates"><br/>
+                <label id="mainl">Birthday</label><br/>
+                <select class="hai">
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <select class="hai">
+                    <option>Jan</option>
+                    <option>Feb</option>
+                </select>
+                <select class="hai">
+                    <option>1990</option>
+                </select><label style="color:darkblue;font-size:13px;padding-left:20px;">Why Do I Need to Provide my birthday?</label><br/>
+                <br/>
+                <input type="radio" ><label style="font-size:20px;">Female</label>
+                <input type="radio"><label style="font-size:20px;">Male</label><br/>
+                <p style="font-size:13px;display:block;width:400px;">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                <input type="submit" value="sign up" style="border:0px;width:150px;height:40px;color:white;background:linear-gradient(to bottom,#54bd26,#499e23);">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
